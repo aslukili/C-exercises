@@ -24,6 +24,6 @@ int main(void)
     c = a / b;
     printf("a / b = %d\n", c );
 
-    // c = a % b;
-    // printf("a % b = %d\n", c );
+    c = a % b;
+    printf("a %c b = %d\n", '%',c );
 }
