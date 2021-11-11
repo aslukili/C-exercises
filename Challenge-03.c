@@ -11,7 +11,7 @@ int main(void)
     scanf("%f", &dis_m);
 
     dis_km = dis_m / 1000;
-    dis_ml = dis_km * 1.609;
+    dis_ml = dis_km / 1.609;
 
     printf("equivalent in Mile is: %f\n", dis_ml);
 }
