@@ -12,7 +12,7 @@ int main(void)
 
     if (N1 == N2)
     {
-        printf("The sum is: %d\n", N3 * 3);
+        printf("The sum mulipiled by 3 is: %d\n", N3 * 3);
     }
     else{
         printf("The sum is: %d\n", N3);
