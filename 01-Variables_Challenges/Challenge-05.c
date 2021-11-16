@@ -13,18 +13,15 @@ int main(void)
 
     // telling temperature state (cold, hot..)
     if (temp_c < 5){
-        printf("Temperature in Celsius is: %f and it is very cold\n", temp_c);
-        return 0;
+        printf("very cold\n");
     }
     else if (temp_c < 20){
-        printf("Temperature in Celsius is: %f and it is cold\n", temp_c);
-        return 0;
+        printf("cold\n");
     }
     else if (temp_c < 32){
-        printf("Temperature in Celsius is: %f and it is hot\n", temp_c);
-        return 0;
+        printf("hot\n");
     }
     else{
-        printf("Temperature in Celsius is: %f and it is very hot\n", temp_c);
+        printf("very hot\n");
     }
 }

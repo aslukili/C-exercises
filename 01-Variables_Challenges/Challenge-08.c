@@ -3,11 +3,7 @@
 
 int main(void)
 {
-    int N1;
-    int N2;
-    int N3;
-    int N4;
-    int sum;
+    int N1, N2, N3, N4, sum;
     float average;
 
     printf("Enter the first Number: ");
@@ -23,5 +19,5 @@ int main(void)
     printf("The sum is: %d\n", sum);
 
     average = (float)sum / 4;
-    printf("The sum is: %f\n", average);
+    printf("everage is: %f\n", average);
 }
