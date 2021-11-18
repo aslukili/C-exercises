@@ -18,7 +18,7 @@ int main()
     while (number > 0)
     {
         digit = number % 10;
-        rev = rev * 10 + digit;
+        rev = rev * 10 + digit; // We multiply by 10 to have 0 in the right, and 0 + (digit) = digit
         number /= 10;
     }
     printf("Reversed number = %d\n", rev);
